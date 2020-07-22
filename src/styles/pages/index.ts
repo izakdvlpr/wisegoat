@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  height: 100vh;
+  
   display: flex;
   align-items: center;
-  justify-content: center;
-  
-  height: 100vh;
+  justify-content: center;  
   
   > div {
     margin-right: 9rem;
@@ -24,13 +24,13 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   margin-top: 35px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;    
   
   height: 55px;
   width: 240px;  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;      
   
   border: 0;
   outline: 0;    

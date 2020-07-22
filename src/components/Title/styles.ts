@@ -7,10 +7,10 @@ export const Content = styled.div`
   flex-direction: column;
 `;
 
-export const Wise = styled.div`
+export const Wise = styled.div<SizeProps>`
   padding: 0;
 
-  font-size: 60px;
+  font-size: ${props => props.wise || "60px"};
   font-weight: 500;
   
   color: var(--secondary);
@@ -19,7 +19,7 @@ export const Wise = styled.div`
 export const Goat = styled.div<SizeProps>`
   padding: 0;
 
-  font-size: ${props => props.size || "90px"};
+  font-size: ${props => props.goat || "90px"};
   font-weight: 700;
   
   color: var(--primary);

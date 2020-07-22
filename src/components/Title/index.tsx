@@ -3,14 +3,15 @@ import React from "react";
 import { Content, Wise, Goat } from "./styles";
 
 export interface SizeProps {
-  size?: string;
+  wise?: string;
+  goat?: string;
 }
 
-const Header: React.FC<SizeProps> = ({ size }) => {
+const Header: React.FC<SizeProps> = ({ wise, goat }) => {
   return (
     <Content>
-      <Wise>Wise</Wise>
-      <Goat size={size}>Goat</Goat>
+      <Wise wise={wise}>Wise</Wise>
+      <Goat goat={goat}>Goat</Goat>
     </Content>
   );
 };

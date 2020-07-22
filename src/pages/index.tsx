@@ -14,7 +14,7 @@ const Index = () => {
         <div>
           <Title />
           <Button>
-            <Link href="/">
+            <Link href="/advice">
               <a>Pedir conselho</a>
             </Link>
           </Button>

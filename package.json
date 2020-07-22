@@ -10,6 +10,7 @@
     "run": "next"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "next": "latest",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
