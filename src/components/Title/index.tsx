@@ -7,7 +7,7 @@ export interface SizeProps {
   goat?: string;
 }
 
-const Header: React.FC<SizeProps> = ({ wise, goat }) => {
+const TitleComponent: React.FC<SizeProps> = ({ wise, goat }) => {
   return (
     <Content>
       <Wise wise={wise}>Wise</Wise>
@@ -16,4 +16,4 @@ const Header: React.FC<SizeProps> = ({ wise, goat }) => {
   );
 };
 
-export default Header;
+export default TitleComponent;

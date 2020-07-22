@@ -5,11 +5,12 @@ import Link from "next/link";
 
 import AdviceSlipAPI, { PhraseProps } from "../api/AdviceSlip";
 
-import Title from "../components/Title";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
-import { Container, Navigation, ArrowIcon, Content, Text, Image } from '../styles/pages/advice';
+import { Container, Content, Text, Image } from '../styles/pages/advice';
 
-const Advice: React.FC = () => {
+const AdvicePage: React.FC = () => {
   const [phrase, setPhrase] = useState<PhraseProps>();
       
   useEffect(() => {
@@ -19,17 +20,7 @@ const Advice: React.FC = () => {
   return (
     <Layout title="Conselho do Bode">
       <Container>
-        <Navigation>
-          <Title
-            wise="20px"
-            goat="40px"
-          />         
-          <Link href="/">
-            <a>
-              <ArrowIcon />
-            </a>
-          </Link>
-        </Navigation>
+        <Navigation />
         <div>          
           {phrase && (
             <Content>
@@ -43,8 +34,9 @@ const Advice: React.FC = () => {
           )} 
         </div>       
       </Container>
+      <Footer />
     </Layout>
   );
 };
 
-export default Advice;
+export default AdvicePage;
