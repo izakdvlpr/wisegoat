@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Layout from "@layout";
-
-import Link from "next/link";
+import Layout from "../layout";
 
 import AdviceSlipAPI, { PhraseProps } from "../api/AdviceSlip";
 

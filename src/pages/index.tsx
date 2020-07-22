@@ -1,6 +1,5 @@
 import React from "react";
-import Layout from "@layout";
-
+import Layout from "../layout";
 import Link from "next/link";
 
 import Title from "../components/Title";
