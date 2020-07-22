@@ -23,7 +23,6 @@
       "@components/*": ["components/*"],
       "@interfaces/*": ["interfaces/*"],
       "@layout": ["layout"],
-      "@services/*": ["services/*"],
       "@styles/*": ["styles/pages/*"]
     }
   },

@@ -3,7 +3,7 @@ import Head from "next/head";
 
 interface Props {
   title?: string;
-};
+}
 
 const Layout: React.FC<Props> = ({ children, title = "" }) => (
   <div>
