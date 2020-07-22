@@ -18,6 +18,18 @@ export default createGlobalStyle`
     background-color: var(--white);
   }
   
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--secondary);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--primary);
+  }
+  
   :root {
     --primary: #72005F;
     --secondary: #BAA193;

@@ -12,7 +12,7 @@ const Index = () => {
     <Layout title="Peça um conselho para o bode">
       <Container>
         <div>
-          <Title size="15px"/>
+          <Title />
           <Button>
             <Link href="/">
               <a>Pedir conselho</a>

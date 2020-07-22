@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { SizeProps } from ".";
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -14,7 +16,7 @@ export const Wise = styled.div`
   color: var(--secondary);
 `;
 
-export const Goat = styled.div`
+export const Goat = styled.div<SizeProps>`
   padding: 0;
 
   font-size: ${props => props.size || "90px"};

@@ -16,6 +16,9 @@ const Layout: React.FC<Props> = ({ children, title = "" }) => (
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet"
       ></link>
+
+      <link rel="icon" href="/bodezinho.png" />
+      <link rel="shortcut icon" href="/bodezinho.png" />
     </Head>
     {children}
   </div>

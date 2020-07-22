@@ -9,7 +9,17 @@ export const Container = styled.div`
   
   > div {
     margin-right: 9rem;
-  }          
+  }    
+  
+  @media (max-width: 800px) {        
+    flex-direction: column;
+    
+    > div {   
+      margin: 0;
+                           
+      text-align: center;
+    }
+  }      
 `;
 
 export const Button = styled.button`
@@ -51,4 +61,8 @@ export const Button = styled.button`
 
 export const Logo = styled.img`
   height: 400px;
+  
+  @media (max-width: 800px) {       
+    display: none;    
+  }
 `;
