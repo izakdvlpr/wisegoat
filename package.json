@@ -1,11 +1,12 @@
 {
-  "name": "codar",
+  "name": "wisegoat",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "dev": "run-s clean run",
     "build": "next build",
-    "start": "next start",
+    "start": "next start",    
+    "export": "next export",
     "clean": "rimraf __next",
     "run": "next"
   },
