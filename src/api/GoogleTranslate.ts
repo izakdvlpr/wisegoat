@@ -2,8 +2,18 @@ import axios from "axios";
 
 const BASE_URL = "https://translate.googleapis.com";
 
+export interface TranslateProps {
+  translated: string;
+  original: string;
+  from: string;
+  to: string;
+}
+
 export default class GoogleTranslate {
-  static async translateText(text: string | any, options: { from: string, to: string,  }) {
+  static async translateText(
+    text: string | any,
+    options: { from: string; to: string }
+  ) {
     const URLqueryParams = new URLSearchParams({
       sl: options.from,
       tl: options.to,

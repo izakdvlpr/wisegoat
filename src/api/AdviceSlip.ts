@@ -2,7 +2,7 @@ import axios from "axios";
 
 const BASE_URL = "https://api.adviceslip.com";
 
-export interface PhraseProps {
+interface PhraseProps {
   slip: {
     id: number;
     advice: string;
