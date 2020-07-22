@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { IoMdArrowRoundBack } from "react-icons/io";
+
 export const Container = styled.div`  
   display: flex;
   flex-direction: column;
@@ -17,13 +19,24 @@ export const Container = styled.div`
 
 export const Navigation = styled.nav`
   height: 100px;
-  width: 100%;
+  width: 100%;    
   
-  
+  padding: 0 30px;
 
   display: flex;
   align-items: center;
-  justify-content: space-around;  
+  justify-content: space-between;    
+`;
+
+export const ArrowIcon = styled(IoMdArrowRoundBack)`
+  height: 35px;
+  width: 35px;
+
+  color: var(--primary);
+  
+  border-radius: 50%;
+  
+  border: 5px solid var(--tertiary);
   
   background-color: var(--tertiary);
 `;
@@ -53,13 +66,13 @@ export const Text = styled.h3`
   
   padding: 25px 60px;
 
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 
   color: var(--primary);
   
   > span {                
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     
     color: var(--secondary);
