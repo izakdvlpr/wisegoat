@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from "react";
-import Layout from "../layout";
+import Layout from "@layout";
 
-import AdviceSlipAPI, { PhraseProps } from "../api/AdviceSlip";
+import GoogleTranslate from "@api/GoogleTranslate";
+import AdviceSlipAPI from "@api/AdviceSlip";
 
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import Navigation from "@components/Navigation";
+import Footer from "@components/Footer";
 
-import { Container, Content, Text, Image } from '../styles/pages/advice';
+import { Container, Content, Text, Image } from '@styles/advice';
 
 const AdvicePage: React.FC = () => {
-  const [phrase, setPhrase] = useState<PhraseProps>();
+  const [phrase, setPhrase] = useState('');    
       
   useEffect(() => {
-    AdviceSlipAPI.getPhrase().then(r => setPhrase(r.data));    
+    AdviceSlipAPI.getPhrase().then(async (r) => {
+      const translate = await GoogleTranslate.translateText(r.data.slip.advice, { from: 'en', to: 'pt' });
+      
+      setPhrase(translate.translated)
+    });                  
   }, []);
   
   return (
@@ -23,7 +28,7 @@ const AdvicePage: React.FC = () => {
           {phrase && (
             <Content>
               <Text>            
-                "{phrase?.slip.advice}"
+                "{phrase}"
                 <br />
                 <span>Goat</span>
               </Text>

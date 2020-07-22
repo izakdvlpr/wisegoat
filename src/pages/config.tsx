@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from "../layout";
+import Layout from "@layout";
 
-import Navigation from "../components/Navigation";
+import Navigation from "@components/Navigation";
 
-import { Container, Content } from '../styles/pages/config';
+import { Container, Content } from '@styles/config';
 
 const ConfigPage: React.FC = () => {
   return (

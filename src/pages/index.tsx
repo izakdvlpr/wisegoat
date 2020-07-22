@@ -1,11 +1,11 @@
 import React from "react";
-import Layout from "../layout";
+import Layout from "@layout";
 import Link from "next/link";
 
-import Title from "../components/Title";
-import Footer from "../components/Footer";
+import Title from "@components/Title";
+import Footer from "@components/Footer";
 
-import { Container, Button, Logo } from "../styles/pages";
+import { Container, Button, Logo } from "@styles/index";
 
 const IndexPage = () => {
   return (
