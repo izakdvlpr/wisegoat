@@ -8,7 +8,7 @@ export const Container = styled.div`
   justify-content: center;  
   
   > div {
-    margin-right: 9rem;
+    margin-right: 9rem;  
   }    
   
   @media (max-width: 800px) {        
@@ -17,7 +17,7 @@ export const Container = styled.div`
     > div {   
       margin: 0;
                            
-      text-align: center;
+      text-align: center;            
     }
   }      
 `;

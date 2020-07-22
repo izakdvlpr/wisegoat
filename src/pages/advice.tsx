@@ -13,8 +13,8 @@ const Advice: React.FC = () => {
   const [phrase, setPhrase] = useState<PhraseProps>();
       
   useEffect(() => {
-    AdviceSlipAPI.getPhrase().then(r => setPhrase(r.data));        
-  }, []);    
+    AdviceSlipAPI.getPhrase().then(r => setPhrase(r.data));    
+  }, []);
   
   return (
     <Layout title="Conselho do Bode">
@@ -30,7 +30,7 @@ const Advice: React.FC = () => {
             </a>
           </Link>
         </Navigation>
-        <div>
+        <div>          
           {phrase && (
             <Content>
               <Text>            
