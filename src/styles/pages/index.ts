@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: calc(100vh - 70px);
+  height: 100vh;
   
   display: flex;
   align-items: center;

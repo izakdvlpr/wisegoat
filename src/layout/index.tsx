@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import Head from "next/head";
 
 interface Props {
@@ -20,7 +20,7 @@ const Layout: React.FC<Props> = ({ children, title = "" }) => (
       <link rel="icon" href="/bodezinho.png" />
       <link rel="shortcut icon" href="/bodezinho.png" />
     </Head>
-    {children}
+    {children}  
   </div>
 );
 

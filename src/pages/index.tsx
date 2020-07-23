@@ -3,7 +3,6 @@ import Layout from "@layout";
 import Link from "next/link";
 
 import Title from "@components/Title";
-import Footer from "@components/Footer";
 
 import { Container, Button, Logo } from "@styles/index";
 
@@ -15,14 +14,13 @@ const IndexPage = () => {
           <Title />
           <Button>
             <Link href="/advice">
-              <a>Pedir conselho</a>
+              <a>Peça seu conselho</a>
             </Link>
           </Button>
         </div>
 
         <Logo src="/bodezinho.png" />
       </Container>
-      <Footer />
     </Layout>
   );
 };

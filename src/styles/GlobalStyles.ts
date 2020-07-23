@@ -16,17 +16,17 @@ export default createGlobalStyle`
     color: var(--black);    
     
     background-color: var(--white);
-  }
+  }  
   
-  body::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 8px;
   }
   
-  body::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: var(--secondary);
   }
   
-  body::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background: var(--primary);
   }
   
@@ -36,6 +36,6 @@ export default createGlobalStyle`
     --tertiary: #EBE4E0;
     
     --black: #000000;
-    --white: #FFFFFF;
+    --white: #FFFFFF;      
   }
 `;
