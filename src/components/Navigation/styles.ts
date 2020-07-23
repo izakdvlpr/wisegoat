@@ -6,6 +6,8 @@ export const Container = styled.nav`
   height: 100px;
   width: 100%;    
   
+  z-index: 999;
+  
   padding: 0 30px;
 
   display: flex;

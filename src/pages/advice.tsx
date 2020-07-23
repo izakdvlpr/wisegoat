@@ -32,9 +32,9 @@ const AdvicePage: React.FC = () => {
               <Text>
                 "{phrase.translated}"
                 <br />
-                <span>Goat</span>
+                <span>- O Sábio Bode</span>
               </Text>
-              <Image src="http://placegoat.com/250/250" alt="bodezinho" />
+              <Image src="http://placegoat.com/350/350" alt="bodezinho" />
             </Content>
           )}
         </div>
