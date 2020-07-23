@@ -7,19 +7,21 @@
     <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#recycle-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   </p>
-    <img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=%23000000&label=License&style=flat-square" alt="License">
+    <img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=0080ff&label=License&style=flat-square" alt="License">
   </a>
 </div>
 
 ## :page_with_curl: Sobre
 
-...
+Bom o Wisegoat é um bode sábio que da conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v) completamente diferente.
+
 
 ## :computer: Tecnologias
 
 ### Front-end
 
 - [React.js](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
 - [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
 - [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -27,7 +29,21 @@
 
 **Dependências**
 
-...
+- [axios](https://github.com/axios/axios)
+- [next](https://github.com/vercel/next.js)
+- [react](https://github.com/facebook/react)
+- [react-icons](https://github.com/react-icons/react-icons)
+- [polished](https://github.com/styled-components/polished)
+- [styled-components](https://github.com/styled-components/styled-components)
+
+**Dependências de desenvolvimento**
+
+- [@next/bundle-analyzer](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)
+- [@zeit/next-source-maps](https://github.com/vercel/next-plugins/tree/master/packages/next-source-maps)
+- [babel-plugin-styled-components](https://github.com/styled-components/babel-plugin-styled-components)
+- [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)
+- [rimraf](https://github.com/isaacs/rimraf)
+- [typescript](https://github.com/microsoft/TypeScript)
 
 ## :recycle: Como Contribuir
 
