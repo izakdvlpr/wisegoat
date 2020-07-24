@@ -21,7 +21,9 @@
 
 ## :page_with_curl: Sobre
 
-O Bode sábio é aquele bode monge que fica em uma monha dando conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v) ou seja completamente diferente.
+O projeto em si é um Desafio fron-end da comunidade [DevChallenge](https://discord.gg/yvYXhGj);
+
+Um tal de Bode sábio que fica em uma montanha dando conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v).
 
 ## :computer: Tecnologias
 
