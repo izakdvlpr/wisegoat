@@ -20,8 +20,7 @@
 
 ## :page_with_curl: Sobre
 
-Bom o Wisegoat é um bode sábio que da conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v) completamente diferente.
-
+O Bode sábio é aquele bode monge que fica em uma monha dando conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v) ou seja completamente diferente.
 
 ## :computer: Tecnologias
 
