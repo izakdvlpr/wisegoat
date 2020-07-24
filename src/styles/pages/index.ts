@@ -1,4 +1,18 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const soonFloating = keyframes`
+  0% {      
+    transform: translateY(0px);
+  }
+  
+  50% {      
+    transform: translateY(-20px);
+  }
+  
+  100% {      
+    transform: translateY(0px);
+  }
+`;
 
 export const Container = styled.div`
   height: 100vh;
@@ -63,21 +77,7 @@ export const Logo = styled.img`
   height: 400px;
     
   transform: translatey(0px);
-	animation: soonFloating 6s ease-in-out infinite;
-  
-  @keyframes soonFloating {
-    0% {      
-      transform: translatey(0px);
-    }
-    
-    50% {      
-      transform: translatey(-20px);
-    }
-    
-    100% {      
-      transform: translatey(0px);
-    }
-  }
+	animation: ${soonFloating} 6s ease-in-out infinite;   
   
   @media (max-width: 800px) {       
     display: none;    

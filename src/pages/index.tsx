@@ -14,7 +14,7 @@ const IndexPage = () => {
           <Title />
           <Button>
             <Link href="/advice">
-              <a>Peça seu conselho</a>
+              Peça seu conselho
             </Link>
           </Button>
         </div>

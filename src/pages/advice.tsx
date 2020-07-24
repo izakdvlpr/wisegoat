@@ -32,7 +32,7 @@ const AdvicePage: React.FC = () => {
               <Text>
                 "{phrase.translated}"
                 <br />
-                <span>- O Sábio Bode</span>
+                <span>Sábio Bode</span>
               </Text>
               <Image src="http://placegoat.com/350/350" alt="bodezinho" />
             </Content>

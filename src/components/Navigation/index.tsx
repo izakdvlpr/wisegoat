@@ -13,9 +13,7 @@ const NavigationComponent: React.FC = () => {
         goat="40px"
       />         
       <Link href="/">
-        <a>
-          <ArrowIcon />
-        </a>
+        <ArrowIcon />
       </Link>
     </Container>
   )

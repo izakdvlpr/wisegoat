@@ -26,11 +26,13 @@ export const Content = styled.div`
 
   background-color: var(--tertiary);
   
+  @media (max-height: 570px) {
+    margin-top: 150px;
+  }
+  
   @media (max-width: 730px) {  
     height: 550px;
-    width: 300px;
-    
-    padding: 15px 0;
+    width: 300px;                
           
     flex-direction: column;
   }
@@ -58,7 +60,7 @@ export const Text = styled.h3`
     color: var(--secondary);
   }        
   
-  @media (max-width: 624px) {  
+  @media (max-width: 730px) {  
     width: 300px;
   
     padding: 25px 60px;
