@@ -3,6 +3,7 @@
   <h1>Wisegoat</h1>
   <p>Site gerador de conselhos e imagens de bodes :)</p>
   <p>
+    <a href="#keyboard-resultado">Resultado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#gear-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,6 +13,10 @@
     <img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=0080ff&label=License&style=flat-square" alt="License">
   </a>
 </div>
+
+## :keyboard: Resultado
+
+<img src="https://cdn.discordapp.com/attachments/725525454160789606/736018784992886854/resultado.gif"/>
 
 ## :page_with_curl: Sobre
 

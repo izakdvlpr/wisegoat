@@ -31,7 +31,7 @@ export const Content = styled.div`
   }
   
   @media (max-width: 730px) {  
-    height: 550px;
+    height: 500px;
     width: 300px;                
           
     flex-direction: column;
