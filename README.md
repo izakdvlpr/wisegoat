@@ -11,7 +11,7 @@
     <a href="#recycle-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   </p>
     <img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=0080ff&label=License&style=flat-square" alt="License">
-    <a href="https://wisegoat-zevdvlpr.vercel.app"><img src="https://img.shields.io/badge/Deploy-View%20Site-0080ff?style=flat-square" alt="Deploy"></a>    
+    <a href="https://wisegoat-zevdvlpr.vercel.app" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Deploy-View%20Site-0080ff?style=flat-square" alt="Deploy"></a>    
   </a>
 </div>
 
