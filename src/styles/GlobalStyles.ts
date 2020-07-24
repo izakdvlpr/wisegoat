@@ -7,7 +7,7 @@ export default createGlobalStyle`
     
     box-sizing: border-box;    
     
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   html, body #root {
