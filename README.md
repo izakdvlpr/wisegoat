@@ -5,6 +5,8 @@
   <p>
     <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#gear-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#arrow_forward:-comocutilizar">Como utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#recycle-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   </p>
     <img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=0080ff&label=License&style=flat-square" alt="License">
@@ -44,6 +46,20 @@ Bom o Wisegoat é um bode sábio que da conselhos para as pessoas. Ele não dá 
 - [next-compose-plugins](https://github.com/cyrilwanner/next-compose-plugins)
 - [rimraf](https://github.com/isaacs/rimraf)
 - [typescript](https://github.com/microsoft/TypeScript)
+
+## :gear: Requisitos
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://node.js.org/)
+- [Yarn](https://yarnpkg.com/) (Você pode usar o Npm do própio Node. Lembre-se de remover o arquivo `yarn.lock` e logo executar `npm install`)
+
+## :arrow_forward: Como utilizar
+
+- Primeiro passo, clone o projeto em sua maquina: `git clone https://github.com/zevdvlpr/wisegoat`
+- Abra a pasta do projeto no terminal.
+- Instale as dependências com o comando: `yarn install`
+- Inicie o servidor de desenvolvimento com o comando: `yarn dev`
+- Abra uma aba no navegar e navegue para: `http://localhost:3000`
 
 ## :recycle: Como Contribuir
 
