@@ -21,9 +21,11 @@
 
 ## :page_with_curl: Sobre
 
+Um tal de Bode sábio que fica em uma montanha dando conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v).
+
 O projeto em si é um Desafio front-end da comunidade [DevChallenge](https://discord.gg/yvYXhGj).
 
-Um tal de Bode sábio que fica em uma montanha dando conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v).
+[Clique aqui](https://www.devchallenge.com.br/detail/5f14f8d5130a5d78f89d9640) para iniciar o desafio.
 
 ## :computer: Tecnologias
 
