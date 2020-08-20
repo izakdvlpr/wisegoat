@@ -10,12 +10,21 @@
     <a href="#arrow_forward-como-cutilizar">Como utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#recycle-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   </p>
-    <a href="https://github.com/zevdvlpr/wisegoat/blob/master/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=0080ff&label=License&style=flat-square" alt="License"></a>
-    <a href="https://wisegoat-zevdvlpr.vercel.app"><img src="https://img.shields.io/badge/Deploy-View%20Site-0080ff?style=flat-square" alt="Deploy"></a>    
+  <img src="https://img.shields.io/github/repo-size/zevdvlpr/wisegoat?color=72005F&style=flat-square" alt="GitHub repo size">
+  <a href="https://github.com/zevdvlpr/wisegoat/commits/master">
+    <img src="https://img.shields.io/github/last-commit/zevdvlpr/wisegoat?color=72005F&style=flat-square" alt="GitHub last commit">
+  </a>
+  <a href="https://github.com/zevdvlpr/wisegoat/tree/master/LICENSE">
+    <img src="https://img.shields.io/github/license/zevdvlpr/wisegoat?color=72005F&label=license&style=flat-square" alt="GitHub License">
+  </a>  
+  <a href="https://github.com/zevdvlpr/wisegoat/stargazers">
+    <img src="https://img.shields.io/github/stars/zevdvlpr/wisegoat?color=72005F&logo=github&style=flat-square" alt="GitHub Stargazers">
   </a>
 </div>
 
 ## :keyboard: Resultado
+
+Veja o deploy do site [clicando aqui](https://wisegoat-zevdvlpr.vercel.app).
 
 <img src="https://cdn.discordapp.com/attachments/725525454160789606/736018784992886854/resultado.gif"/>
 
