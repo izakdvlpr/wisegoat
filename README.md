@@ -30,7 +30,7 @@ Veja o deploy do site [clicando aqui](https://wisegoat-zevdvlpr.vercel.app).
 
 ## :page_with_curl: Sobre
 
-Um tal de Bode sábio que fica em uma montanha dando conselhos para as pessoas. Ele não dá só conselhos. Mais sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v).
+Um tal de Bode sábio que fica em uma montanha dando conselhos para as pessoas. Ele não dá só conselhos mas, sim uma forma de viver mais direta (já vou avisando ele é sincero, até de mais ;v).
 
 O projeto em si é um Desafio front-end da comunidade [DevChallenge](https://discord.gg/yvYXhGj).
 
