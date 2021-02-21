@@ -11,7 +11,7 @@
     "run": "next"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "next": "latest",
     "polished": "^3.6.5",
     "react": "^16.12.0",
